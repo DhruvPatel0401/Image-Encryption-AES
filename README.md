@@ -29,3 +29,41 @@ venv\Scripts\activate
 # On macOS and Linux
 source venv/bin/activate
 ```
+
+4. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Apply migrations
+
+```bash
+python manage.py migrate
+```
+
+6. Start the Django development server:
+```bash
+python manage.py runserver
+```
+
+### Backend (Django)
+
+7. Navigate to the frontend directory:
+
+```bash
+cd ../UI/myapp
+```
+
+8. Install the required dependencies:
+
+```bash
+npm install
+```
+
+9. Start the React development server:
+
+```bash
+npm install
+```
+
