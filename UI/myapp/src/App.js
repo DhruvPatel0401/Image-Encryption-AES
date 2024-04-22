@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './HelloWorld';
+import Header from './components/Header/Header';
+import Index from './components/MainContent/Index';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div>
-      <HelloWorld />
+    <div className="App">
+      <Header />
+      <Index />
+      <Footer />
     </div>
   );
 }
